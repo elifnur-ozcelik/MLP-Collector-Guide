@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SpinG4">
+        <item>BRUSHABLES</item>
+        <item>BLIND BAGS</item>
+        <item>GUARDIANS OF HARMONY</item>
+        <item>PLUSHIES</item>
+        <item>EQUESTRIA GIRLS</item>
+        <item>COMICS</item>
+        <item>TRADING CARDS</item>
+    </string-array>
+</resources>

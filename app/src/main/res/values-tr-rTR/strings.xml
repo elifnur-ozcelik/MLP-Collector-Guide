@@ -1,0 +1,50 @@
+<resources>
+   <string name="summary_fmt">
+🦄 Koleksiyonerin Adı: %1$s %2$s
+\n📅 Koleksiyon Süresi: %3$d yıl
+\n💖 Kategori: %5$s
+\n📦 Sahip Olduğu Parça Sayısı: %7$d
+\n🌟 Favori Karakter: %9$s
+</string>
+    <string name="app_name">ElifnurOzcelik_HW1</string>
+    <string name="txtApp2">My Little Pony Koleksiyon Rehberi</string>
+    <string name="txtFooter">My Little Pony® Hasbro©’ya ait bir markadır. 2026 Hasbro. Tüm hakları saklıdır.</string>
+    <string name="txtApp">Koleksiyoner Rehberi</string>
+    <string name="btnMainContinue">Devam Et</string>
+    <string name="txtheadG4">MLP Friendship Arkadaşlık Sihirlidir Koleksiyon Veritabanı</string>
+    <string name="btnBack">Geri</string>
+    <string name="btnContinue">Devam Et</string>
+
+    <string name="txtSurname" />
+    <string name="txtName" />
+    <string name="btnRes">Sonuç</string>
+    <string name="txtDisplay"></string>
+
+    <string name="btnLastBack">Geri</string>
+    <string name="btnLastResult">Sonuç</string>
+
+    <string name="txtCharName">Karakter</string>
+    <string name="txtPiece">Bu kategoriden kaç parçaya sahipsiniz?</string>
+    <string name="txtPieceAnswer"></string>
+    <string name="txtYear" />
+    <string name="txtCategory">Kategori</string>
+
+    <string name="label_category">Kategori:</string>
+    <string name="label_item_count">Parça Sayısı:</string>
+    <string name="label_favorite">Favori:</string>
+
+    <string name="unknown">-</string>
+    <string name="btnLanguage">EN</string>
+    <string name="toast_language_changed">Language changed to English </string>
+    <string name="hint_name">İsim</string>
+    <string name="hint_Surname">Soyisim</string>
+    <string name="hint_year">Kaç Yıldır Koleksiyonersin?</string>
+    <string name="err_fill_name_surname_year">Lütfen ad, soyad ve yılı doldurun</string>
+    <string name="incomplete_selection_title">Eksik Seçim</string>
+    <string name="incomplete_selection_message">Lütfen favori karakteri seçin ve bu kategoride kaç parçanız olduğunu girin.</string>
+    <string name="txtSummary">MLP Profilin</string>
+    <string name="btnlist">Liste</string>
+    <string name="err_only_letters">Bu alana yalnızca harf girilebilir</string>
+    <string name="err_year_number">Lütfen geçerli bir yıl giriniz</string>
+
+</resources>

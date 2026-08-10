@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="category" type="String"/>
+        <variable name="progress" type="Integer"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_lightB"
+        tools:context=".ThirdActivity">
+
+        <TextView
+            android:id="@+id/txtFooter4"
+            android:layout_width="411dp"
+            android:layout_height="36dp"
+            android:text="@string/txtFooter"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnLastResult"
+            android:layout_width="235dp"
+            android:layout_height="53dp"
+            android:backgroundTint="@color/button_pink"
+            android:text="@string/btnLastResult"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.886" />
+
+        <Button
+            android:id="@+id/btnLastBack"
+            android:layout_width="235dp"
+            android:layout_height="53dp"
+            android:backgroundTint="@color/button_green"
+            android:text="@string/btnLastBack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.808" />
+
+        <SeekBar
+            android:id="@+id/seekChar"
+            android:layout_width="323dp"
+            android:layout_height="67dp"
+            android:max="5"
+            android:progress='@={progress}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.511"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593" />
+
+        <EditText
+            android:id="@+id/txtPieceAnswer"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/txtPieceAnswer"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709" />
+
+        <TextView
+            android:id="@+id/txtPiece"
+            android:layout_width="182dp"
+            android:layout_height="45dp"
+            android:text="@string/txtPiece"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.709" />
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:text='@{category}'
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.094" />
+
+        <TextView
+            android:id="@+id/txtCharName"
+            android:layout_width="324dp"
+            android:layout_height="43dp"
+            android:hint="Select Your Favorite Character"
+            android:text="@string/txtCharName"
+            android:textAlignment="center"
+            android:textColorHint="#4E4949"
+            android:textSize="24sp"
+            app:charProgressText='@{progress}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.17" />
+
+        <ImageView
+            android:id="@+id/imgChar"
+            android:layout_width="228dp"
+            android:layout_height="216dp"
+            app:charProgressImage='@{progress}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.328"
+            app:srcCompat="@drawable/apple_jack" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,49 @@
+<resources>
+<string name="summary_fmt">
+🦄 Collector: %1$s %2$s
+\n📅 Years Collecting: %3$d
+\n💖 Category: %5$s
+\n📦 Items Owned: %7$d
+\n🌟 Favorite Character: %9$s
+</string>
+
+    <string name="app_name">ElifnurOzcelik_HW1</string>
+    <string name="txtApp2">My Little Pony Collector\'s Guide</string>
+    <string name="txtFooter">My Little Pony® is a brand of Hasbro©. 2026 Hasbro. All rights reserved.</string>
+    <string name="txtApp">Collector\'s Guide</string>
+    <string name="btnMainContinue">Continue</string>
+    <string name="txtheadG4">MLP Friendship is Magic Collection Database</string>
+    <string name="btnBack">Back</string>
+    <string name="btnContinue">Continue</string>
+    <string name="txtSurname" />
+    <string name="txtName" />
+    <string name="btnRes">Result</string>
+    <string name="txtDisplay" />
+    <string name="btnLastBack">Back</string>
+    <string name="btnLastResult">Result</string>
+    <string name="txtCharName" />
+    <string name="txtPiece">How many pieces do you have in this category?</string>
+    <string name="txtPieceAnswer" />
+    <string name="txtYear" />
+    <string name="txtCategory" />
+
+    <string name="label_category">Category:</string>
+    <string name="label_item_count">Item Count:</string>
+    <string name="label_favorite">Favorite:</string>
+
+    <string name="unknown">-</string>
+    <string name="btnLanguage">TR</string>
+    <string name="toast_language_changed">Dil Türkçe olarak değiştirildi</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_Surname">Surname</string>
+    <string name="hint_year">How long collecting MLP?</string>
+    <string name="err_fill_name_surname_year">Please fill name, surname and year</string>
+    <string name="incomplete_selection_title">Incomplete Selection</string>
+    <string name="incomplete_selection_message">Please select a favorite character and enter how many items you have.</string>
+    <string name="txtSummary">Your MLP Profile</string>
+    <string name="btnlist">List</string>
+    <string name="err_only_letters">Only letters are allowed</string>
+    <string name="err_year_number">Year must be a number</string>
+
+
+</resources>
